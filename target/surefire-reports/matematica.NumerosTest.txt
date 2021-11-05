@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: matematica.NumerosTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+matematica.NumerosTest.testNumeroPar()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at matematica.NumerosTest.testNumeroPar(NumerosTest.java:63)
+
+matematica.NumerosTest.testAreaQuadrado()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at matematica.NumerosTest.testAreaQuadrado(NumerosTest.java:71)
+
+matematica.NumerosTest.testNumeroDivisivel()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at matematica.NumerosTest.testNumeroDivisivel(NumerosTest.java:79)
+
