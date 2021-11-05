@@ -11,14 +11,22 @@ package matematica;
 public class Numeros {
     
     public Boolean numeroPar(int n){
-        return n%2==0;
+        if (n%2 == 0){
+            return true;
+        }else{
+            return false;
+        }
     }
     
     public int areaQuadrado(int lado){
-        return lado*lado;
+        return (lado*lado);
     }
     
     public Boolean numeroDivisivel(int dividendo, int divisor){
-        return dividendo%divisor==0;
+        if (dividendo%divisor==0){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

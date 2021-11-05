@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="3" name="matematica.NumerosTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="matematica.NumerosTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+7"/>
@@ -64,19 +64,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testNumeroPar" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at matematica.NumerosTest.testNumeroPar(NumerosTest.java:63)
-</failure>
-  </testcase>
-  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testAreaQuadrado" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at matematica.NumerosTest.testAreaQuadrado(NumerosTest.java:71)
-</failure>
-  </testcase>
-  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testNumeroDivisivel" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at matematica.NumerosTest.testNumeroDivisivel(NumerosTest.java:79)
-</failure>
-  </testcase>
+  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testNumeroPar" time="0.001"/>
+  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testAreaQuadrado" time="0"/>
+  <testcase classname="matematica.NumerosTest" name="matematica.NumerosTest.testNumeroDivisivel" time="0"/>
 </testsuite>

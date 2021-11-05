@@ -32,7 +32,7 @@ public class NumerosTest {
 
     @org.junit.jupiter.api.BeforeEach
     public void setUp() throws Exception {
-        n = new Numeros();
+
     }
 
     @org.junit.jupiter.api.AfterEach
@@ -60,7 +60,8 @@ public class NumerosTest {
      */
     @org.junit.jupiter.api.Test
     public void testNumeroPar() {
-        assertEquals(true, n.numeroPar(9));
+        n = new Numeros();
+        assertEquals(true, n.numeroPar(8));
     }
 
     /**
@@ -68,6 +69,7 @@ public class NumerosTest {
      */
     @org.junit.jupiter.api.Test
     public void testAreaQuadrado() {
+        n = new Numeros();
         assertEquals(100, n.areaQuadrado(10));
     }
 
@@ -76,6 +78,7 @@ public class NumerosTest {
      */
     @org.junit.jupiter.api.Test
     public void testNumeroDivisivel() {
+        n = new Numeros();
         assertEquals(true, n.numeroDivisivel(4, 2));
     }
     
